@@ -1,0 +1,14 @@
+//Write a program to printthe following pattern(star pattern)
+
+#include <stdio.h>
+
+int main(){
+    for(int i=0; i<=5; i++){
+        for(int j=5; j>=i; j--){
+            printf("*");
+        }
+        printf("\n");
+    }
+    
+    return 0;
+}
