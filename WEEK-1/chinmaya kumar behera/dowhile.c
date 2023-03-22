@@ -1,5 +1,5 @@
 #include <stdio.h>
-void main()
+int main()
 {
     int num, digit, sum = 0;
     printf("Enter a number: ");
@@ -12,6 +12,6 @@ void main()
     } while (num != 0);    
     
     printf("Sum of digits: %d\n", sum);
-    getch();
+    return 0;
   
 }
