@@ -1,0 +1,17 @@
+5a)char ****k;
+
+ans=
+ii) k is a pointer to a pointer to a pointer to a pointer to a char
+
+
+5b) void main()
+{
+int k = 5;
+int *p = &k;
+int **m = &p;
+**m = 6;
+printf("%d\n", k);
+}
+
+
+ans= 6
