@@ -5,4 +5,4 @@ c. Only integer members of structure can be initialized at the time of declarati
 d. None of the above
 
 ans=
-a. Structure elements can be initialized at the time of declaration.
+b. Struture members cannot be initialized at the time of declaration
