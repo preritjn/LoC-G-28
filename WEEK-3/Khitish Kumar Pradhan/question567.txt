@@ -1,0 +1,9 @@
+5) (b) k is pointer to a pointer to a pointer to a pointer to a char
+  (b) 6
+
+
+6) (b) Structure members cannot be initialized at the time of declaration. 
+
+7)The size of a C structure is the total number of bytes it occupies in memory. The size of 
+a structure depends on the size of its individual members and any padding added by the compiler .To calculate the size of a C structure the compiler determines the size of each member based on its data types . For example, an int typically takes 4 bytes on a 32-bit machine and 8 bytes on a 64-bit machine, while a char typically takes 1 byte. The compiler may add padding between members of the structure to ensure that each member is aligned properly in memory.The amount of padding added between numbers of a structure can depends on the data types and the architecture of the machine.
+    
