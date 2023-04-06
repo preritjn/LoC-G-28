@@ -1,0 +1,4 @@
+7. What is the size of a C structure? How the size of a C structure is calculated?
+
+ANS: Size of a C structure is the sum of sizes of all elements of the structure
+     Size of a Structure can be calculated by sizeof() function
