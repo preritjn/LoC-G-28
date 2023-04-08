@@ -1,0 +1,7 @@
+What is the size of a C structure? How the size of a C structure is calculated
+
+ans- 
+The size of members of a structure depends on their own data types, like int has a size of 4 bytes, char is 1 byte, so while calculating the total size of the struct, the size of individual members are added but this is also affected by padding added by the compiler for proper alignment of the members. When a structure member is followed by a member of larger size then the compiler adds padding to the align the members in a proper manner so that it can be accessed in the memory more conviniently.
+
+The size of structure and be calculated by using sizeof() function.
+e.g. If a struct consists of int, long int and long long int then the total size of the structure is calculated by adding the size of int. long int and long long int i.e. 4, 4 and 8 respectively which gives 16 as the result.
